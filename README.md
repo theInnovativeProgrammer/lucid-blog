@@ -1,3 +1,13 @@
+# FRONTEND
+- Library: React
+- Routing: React Router (react-router-dom)
+- Learnings:
+    - Created a reuseable function "getFormattedDate.js" in a separate file and calling it from different components whenever needed.
+        - While calling these type of functions in a file we need to call it directly (without anonymous function)
+    - Used useLocation() to get the location for the 404 page.
+        >> const location = useLocation();
+        >> const currentLocation = location.pathname();
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
